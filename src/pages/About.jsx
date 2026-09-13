@@ -43,9 +43,9 @@ const About = () => {
             />
           </div>
           {/* Founder Card */}
-          <div className='absolute -bottom-8 -right-2 lg:-right-8 bg-white rounded-2xl p-5 shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-zinc-100 max-w-'>
-            <div className='flex gap-3'>
-              <img src="https://i.pravatar.cc/100?img=15" className='w-12 h-12 rounded-full object-cover' alt="" />
+          <div className='absolute -bottom-8 -right-2 lg:-right-8 bg-white rounded-2xl p-5 shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-zinc-100  '>
+            <div className='flex gap-3  '>
+              <img src="" className='w-12 h-12 rounded-full object-cover' alt="founder" />
               <div>
                 <p className='font-bold text-zinc-900 leading-none'>Raju Tiwari</p>
                 <p className='text-xs text-zinc-500 mt-1'>Founder, Abhishek Traders</p>
@@ -54,7 +54,8 @@ const About = () => {
             </div>
             <p className='text-sm text-zinc-600 mt-3 italic flex gap-2'>
               <Quote size={14} className='text-orange-500 shrink-0'/>
-              "Customer ko maal nahi, bharosa bechta hoon."
+              Customer ko maal nahi, bharosa bechta hoon.
+              <Quote size={14} className='text-orange-500 shrink-0'/>
             </p>
           </div>
         </div>
@@ -94,7 +95,7 @@ const About = () => {
       </div>
 
       {/* --- WHY US --- */}
-      <div className='bg-zinc-900 rounded- mx-4 lg:mx-8 p-8 lg:p-14'>
+      <div className='bg-zinc-900 rounded- mx-4 lg:mx-8 p-8 lg:p-14  rounded-2xl'>
         <div className='max-w-7xl mx-auto'>
           <div className='flex flex-col lg:flex-row justify-between gap-6'>
             <h2 className='text-3xl lg:text-4xl font-bold text-white'>Why Unnao Trusts Us?</h2>
@@ -122,7 +123,7 @@ const About = () => {
 
       {/* --- LOCATION & CTA --- */}
       <div className='max-w-7xl mx-auto px-6 lg:px-8 py-16 grid lg:grid-cols-3 gap-8'>
-        <div className='lg:col-span-2 bg-white border border-zinc-200 rounded- p-8 flex flex-col sm:flex-row gap-8'>
+        <div className='lg:col-span-2 bg-white border border-zinc-200 rounded- p-8 flex flex-col sm:flex-row gap-8  rounded-2xl'>
           <div className='flex-1'>
             <h3 className='font-bold text-xl flex items-center gap-2'><MapPin className='text-orange-500'/> Visit Our Shop</h3>
             <p className='text-zinc-600 mt-3 text-sm leading-6'>
@@ -140,7 +141,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className='bg-orange-500 rounded- p-8 text-white flex flex-col justify-center'>
+        <div className='bg-orange-500 rounded- p-8 text-white flex flex-col justify-center rounded-2xl'>
           <Clock className='mb-3' />
           <h3 className='font-bold text-2xl leading-tight'>Need Urgent Material?</h3>
           <p className='text-orange-100 text-sm mt-2'>Raat 10 baje tak call karo, subah site par maal milega.</p>
