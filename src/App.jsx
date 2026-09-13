@@ -1,9 +1,14 @@
+import Navbar from "./components/Navbar";
+import About from "./pages/About";
+import Home from "./pages/Home";
 
 function App() {
 
   return (
     <>
-      Abhishek Trader's
+      <Navbar/>
+      <Home/>
+      <About/>
     </>
   )
 }
