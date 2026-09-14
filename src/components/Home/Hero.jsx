@@ -22,7 +22,7 @@ const Hero = () => {
           {/* Badge */}
           <div className='inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 text-orange-400 text-xs font-semibold tracking-widest px-3 py-1.5 rounded-full mb-4'>
             <span className='w-2 h-2 bg-orange-500 rounded-full animate-pulse'></span>
-            ESTD. 2006 • UNNAO
+            ESTD. 2011 • UNNAO
           </div>
 
           <h1 className='text-4xl lg:text-6xl font-bold text-white leading-[1.1]'>
@@ -40,7 +40,7 @@ const Hero = () => {
               Material and Construction Excellence
             </p>
             <p className='text- lg:text- text-zinc-100 mt-3'>
-              With an <span className='text-orange-400 font-semibold'>Experience</span> of <span className='text-orange-400 font-semibold'>20+ years</span>
+              With an <span className='text-orange-400 font-semibold'>Experience</span> of <span className='text-orange-400 font-semibold'>15+ years</span>
             </p>
           </div>
 

@@ -17,14 +17,14 @@ const Intro = () => {
           <div className='max-w-7xl mx-auto w-full px-6 lg:px-8'>
             <div className='max-w-2xl'>
               <div className='inline-flex items-center gap-2 bg-orange-500 text-white text-xs font-bold tracking-widest px-4 py-2 rounded-full mb-4'>
-                OUR STORY • SINCE 2006
+                OUR STORY • SINCE 2011
               </div>
               <h1 className='text-4xl lg:text-6xl font-bold text-white leading-[1.05]'>
                 Ghar Sirf Bante Nahi,<br/>
                 <span className='text-orange-400'>Bharose Par Tikte Hain.</span>
               </h1>
               <p className='text-zinc-300 text-lg mt-4 leading-relaxed'>
-                20+ saal se Unnao aur Kanpur ke har ghar ki neev mein Abhishek Traders ka bharosa hai.
+                15+ saal se Unnao ke har ghar ki neev mein Abhishek Traders ka bharosa hai.
               </p>
             </div>
           </div>
@@ -54,7 +54,7 @@ const Intro = () => {
           </h2>
           <div className='mt-6 space-y-4 text- leading-7 text-zinc-600'>
             <p>
-              2006 mein ek choti si cement ki dukan se shuru hua safar, aaj Unnao ke sabse bharosemand building material suppliers mein se ek hai.
+              2011 mein ek choti si cement ki dukan se shuru hua safar, aaj Unnao ke sabse bharosemand building material suppliers mein se ek hai.
             </p>
             <p>
               Hum jaante hain ki ek ghar banana kisi ke jeevan ki sabse badi investment hoti hai. Isiliye hum sirf material nahi dete - sahi salah, sahi rate, aur time par delivery ka vaada dete hain.
@@ -70,7 +70,7 @@ const Intro = () => {
               <p className='text-xs font-semibold tracking-widest text-zinc-500 mt-1'>HOMES BUILT</p>
             </div>
             <div>
-              <p className='text-3xl font-bold text-zinc-900'>20+</p>
+              <p className='text-3xl font-bold text-zinc-900'>15+</p>
               <p className='text-xs font-semibold tracking-widest text-zinc-500 mt-1'>YEARS TRUST</p>
             </div>
             <div>
