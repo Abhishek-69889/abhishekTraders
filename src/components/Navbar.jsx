@@ -1,5 +1,7 @@
 import { Phone, MessageCircleMore, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import logo from '../assets/images/logo.png';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +13,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className='flex items-center gap-3'>
           <div className='w-20 h-12 rounded-xl bg-gradient-to-br  flex items-center justify-center shadow-lg shadow-orange-500/20 overflow-hidden'>
-             <img src="./src/assets/images/logo.png" alt="Logo" className='w-full h-full object-contain p-1' />
+             <img src={logo} alt="Logo" className='w-full h-full object-contain p-1' />
           </div>
           <h2 className='font-bold text- leading-none tracking-tight text-zinc-900'>
             Abhishek <span className='text-orange-500'>Traders</span>
