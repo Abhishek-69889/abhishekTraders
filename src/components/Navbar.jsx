@@ -29,7 +29,7 @@ const Navbar = () => {
             <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>
               Home
             </li>
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>
+            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none whitespace-nowrap'>
               About us
             </li>
             <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>
@@ -42,14 +42,14 @@ const Navbar = () => {
             {/* Divider */}
             <div className='w- h-6 bg-zinc-200 mx-2'></div>
 
-            <li className='flex items-center gap-2 text-sm font-semibold text-zinc-800 bg-zinc-100 hover:bg-zinc-200 px-3.5 py-2 rounded-full transition-colors cursor-pointer'>
+            <li className='flex items-center gap-2 text-sm font-semibold text-zinc-800 bg-zinc-100 hover:bg-zinc-200 px-3.5 py-2 rounded-full transition-colors  whitespace-nowrap cursor-pointer'>
               <Phone size={16} className='text-orange-500'/>
               <p>+91 9984740025</p>
             </li>
 
             <li className='flex items-center gap-2 text-sm font-semibold bg-[#25D366] hover:bg-[#20BD5A] text-white px-4 py-2.5 rounded-full transition-all shadow-md hover:shadow-lg hover:scale-[1.02] cursor-pointer'>
               <MessageCircleMore size={18} />
-              <a href="https://wa.me/919984740025?text=Namaste%20Abhishek%20Traders,%20mujhe%20rate%20chahiye" target="_blank" rel="noreferrer" className='no-underline text-white'>
+              <a href="https://wa.me/919984740025?text=Namaste%20Abhishek%20Traders,%20mujhe%20rate%20chahiye" target="_blank" rel="noreferrer" className='no-underline text-white whitespace-nowrap'>
                 Chat on WhatsApp
               </a>
             </li>
