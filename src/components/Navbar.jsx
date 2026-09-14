@@ -1,10 +1,20 @@
 import { Phone, MessageCircleMore, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import logo from '../assets/images/logo.png';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const [isActive, setIsActive]=useState('Home')
+
+  const navLink = [
+  { id: 1, name: "Home", path: "/" },
+  { id: 2, name: "About us", path: "/about" },
+  { id: 3, name: "Services", path: "/services" },
+  { id: 4, name: "Gallery", path: "/gallery" },
+]
 
   return (
     <div className='w-full sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-zinc-200 shadow-sm py-3'>
@@ -24,20 +34,27 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className='hidden lg:flex'>
           <ul className='flex items-center gap-8 text- font-medium text-zinc-700'>
+            {
+              navLink.map((link, index) => {
+                return (
+                  <Link
+                    key={link.id || index}
+                    to={link.path}
+                    onClick={() => setIsActive(link.name)}
+                    className={`transition-colors cursor-pointer ${
+                    isActive === link.name
+                    ? 'text-orange-500 font-semibold'
+                    : 'text-gray-950 opacity-60 hover:text-orange-400'
+                    }`}
+                    >
+                    {link.name}
+                  </Link>
+                )
+              })
+            }
 
-            {/* --- DISABLED LINKS - Different Color --- */}
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>
-              Home
-            </li>
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none whitespace-nowrap'>
-              About us
-            </li>
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>
-              Services
-            </li>
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>
-              Gallery
-            </li>
+
+     
 
             {/* Divider */}
             <div className='w- h-6 bg-zinc-200 mx-2'></div>
@@ -65,12 +82,26 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className='lg:hidden bg-white border-t border-zinc-200 px-5 py-6 flex flex-col gap-5 shadow-xl'>
-          <ul className='flex flex-col gap-4 text- font-medium'>
+          <ul className='flex flex-col items-center gap-4 text- font-medium'>
             {/* Disabled in Mobile too */}
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>Home</li>
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>About us</li>
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>Services</li>
-            <li className='cursor-not-allowed text-zinc-400 opacity-60 select-none'>Gallery</li>
+            {
+              navLink.map((link, index) => {
+                return (
+                  <Link
+                    key={link.id || index}
+                    to={link.path}
+                    onClick={() => setIsActive(link.name)}
+                    className={`transition-colors cursor-pointer ${
+                    isActive === link.name
+                    ? 'text-orange-500 font-semibold'
+                    : 'text-gray-950 opacity-60 hover:text-orange-400'
+                    }`}
+                    >
+                    {link.name}
+                  </Link>
+                )
+              })
+            }
           </ul>
           <div className='flex flex-col gap-3 pt-4 border-t border-zinc-100'>
             <a href="tel:+919984740025" className='flex items-center justify-center gap-2 bg-zinc-900 text-white py-3 rounded-full font-semibold'>
