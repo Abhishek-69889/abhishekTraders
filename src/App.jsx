@@ -5,6 +5,7 @@ import NotFound from "./pages/NotFound";
 import OurJourney from "./pages/OurJourney";
 import Services from "./pages/Services";
 import Footer from "./components/Footer";
+import Gallery from "./pages/Gallery";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/ourJourney" element={<OurJourney/>}/>
         <Route path="/services" element={<Services/>}/>
+        <Route path="/gallery" element={<Gallery/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>
