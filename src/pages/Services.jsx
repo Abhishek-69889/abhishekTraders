@@ -77,7 +77,7 @@ const Services = () => {
           <span className="text-zinc-400">EK HI JAGAH.</span>
         </h1>
         <p className="text-zinc-500 mt-4 max-w-xl text- leading-6">
-          Cement se leke gitti tak - 100% genuine material, same day delivery in Kantha, Unnao & Kanpur.
+          Cement se leke gitti tak - 100% genuine material, same day delivery in Kantha, Unnao .
           500+ homes ka bharosa. Rate WhatsApp par 10 minute me.
         </p>
 

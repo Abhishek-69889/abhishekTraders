@@ -24,7 +24,7 @@ const Gallery = () => {
 
       {/* Masonry - only images */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pb-20">
-        <div className="columns-1 md:columns-2 lg:columns-3  space-y-4">
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4 [column-fill:_balance]">
           {images.map((src, i) => (
             <img
               key={i}

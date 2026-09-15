@@ -20,6 +20,12 @@
     "react-router-dom": "^7.18.3",
     "tailwindcss": "^4.3.3"
   },
+  "browserslist": [
+  ">1%",
+  "last 2 versions",
+  "not dead",
+  "not ie 11"
+],
   "devDependencies": {
     "@eslint/js": "^9.36.0",
     "@types/react": "^19.1.16",

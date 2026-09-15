@@ -6,11 +6,16 @@ import OurJourney from "./pages/OurJourney";
 import Services from "./pages/Services";
 import Footer from "./components/Footer";
 import Gallery from "./pages/Gallery";
+import useProtect from "./hooks/useProtect";
 
-function App() {
+function App() {  
+
+  useProtect()
 
   return (
     <>
+      <div className="select-none">
+
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -20,6 +25,7 @@ function App() {
         <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>
+      </div>
     </>
   )
 }

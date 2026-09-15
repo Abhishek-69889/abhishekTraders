@@ -28,7 +28,7 @@ const data = [
   {
     year: "2019",
     title: "300 Homes Milestone",
-    desc: "Crossed 300 residential projects supplied in Unnao and Kanpur belt. From independent floors to duplexes, our material became part of the city's growth. A quiet milestone that spoke volumes."
+    desc: "Crossed 300 residential projects supplied in Unnao belt. From independent floors to duplexes, our material became part of the city's growth. A quiet milestone that spoke volumes."
   },
   {
     year: "2021",
@@ -48,7 +48,7 @@ const data = [
   {
     year: "2026",
     title: "Engineering the Future",
-    desc: "Vision for 2026 is clear: To be the most reliable building material partner from Unnao to Kanpur. Standardized rates, same-day delivery, and zero-compromise quality for every project, big or small."
+    desc: "Vision for 2026 is clear: To be the most reliable building material partner of Unnao. Standardized rates, same-day delivery, and zero-compromise quality for every project, big or small."
   },
 ];
 

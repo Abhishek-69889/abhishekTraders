@@ -33,7 +33,7 @@ const Footer = () => {
             <p className="text-white font-black tracking-tighter text-lg">ABHISHEK TRADERS</p>
           </div>
           <p className="text-sm leading-6 mt-4">
-            15+ years trusted building material supplier in Kantha, Unnao & Kanpur. Cement, Sariya, Morang, Gitti, Tiles, Plumbing - 100% genuine, same day delivery.
+            15+ years trusted building material supplier in Kantha, Unnao . Cement, Sariya, Morang, Gitti, Tiles, Plumbing - 100% genuine, same day delivery.
           </p>
           <div className="flex gap-2 mt-5">
             <div className="bg-zinc-900 border border-zinc-800 px-3 py-1.5 rounded-full text- font-bold tracking-widest">EST. 2011</div>
@@ -94,7 +94,7 @@ const Footer = () => {
             <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center font-black text-black text-xs">G</div>
             <div>
               <p className="text-white text-xs font-bold">Google Rating</p>
-              <p className="text-xs">4.9 ★ (127+ Reviews) • Unnao</p>
+              <p className="text-xs">5 ★ (5+ Reviews) • Unnao</p>
             </div>
           </div>
         </div>
