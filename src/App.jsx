@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import OurJourney from "./pages/OurJourney";
 import Services from "./pages/Services";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
+      <Footer/>
     </>
   )
 }
