@@ -134,15 +134,15 @@ const OurJourney = () => {
         <div ref={lineRef} className="absolute left- lg:left-1/2 top-0 w- h-0 bg-orange-500 -translate-x-1/2 z-10"></div>
 
         {data.map((item, i) => (
-          <div key={item.year} className="year-card relative flex lg:items-center gap-6 lg:gap-0 mb-20  lg:mb-28">
+          <div key={item.year} className="year-card relative flex lg:items-center gap-6 lg:gap-0 mb-20  lg:mb-28 ">
 
             {/* Year Badge - Pop Hoga */}
-            <div className="year-badge absolute left- lg:left-1/2 top-0 -translate-x-1/2 w-16 h-16 rounded-full bg-zinc-800 border-4 border-[#0f0f0f] flex items-center justify-center font-black text-sm z-20 transition-colors">
+            <div className="year-badge absolute left- lg:left-1/2 top-0 -translate-x-1/2 w-16 h-16 rounded-full bg-zinc-800 border-4 border-[#0f0f0f] flex items-center justify-center font-black text-sm z-20 transition-colors ">
               {item.year}
             </div>
 
             {/* Content - Alternate Left/Right */}
-            <div className={`content-box  w-full ml-16 lg:ml-0 lg:w-[42%] ${i % 2 === 0? 'lg:mr-auto lg:text-right lg:pr-12' : 'lg:ml-auto lg:pl-12 lg:ml-[58%]'}`}>
+            <div className={`content-box   w-full ml-16 lg:ml-0 lg:w-[42%] ${i % 2 === 0? 'lg:mr-auto lg:text-right lg:pr-12' : 'lg:ml-auto lg:pl-12 lg:ml-[58%]'}`}>
               <div className="bg-zinc-900 border border-zinc-800 rounded- p-6 lg:p-7 hover:border-zinc-700 transition-colors">
                 <h3 className="text-xl font-bold text-white">{item.title}</h3>
                 <p className="text-zinc-400 text- leading-6 mt-3">
@@ -160,10 +160,10 @@ const OurJourney = () => {
             AAP
           </div>
         </div>
-        <div className="bg-white rounded- p-8 lg:p-10 text-center mt-6 text-black max-w-xl mx-auto">
+        <div className="bg-orange-500 rounded- p-8 lg:p-10 text-center mt-6 text-black max-w-xl mx-auto hover:bg-amber-600 rounded-xl">
           <h3 className="text-2xl font-black">Ab Aapki Baari Hai</h3>
-          <p className="text-zinc-600 text-sm mt-2">15 saal aap logo ne bharosa diya, ab aapke ghar ki baari hai.</p>
-          <a href="https://wa.me/919984740025" target="_blank" className="inline-block mt-5 bg-black text-white px-8 py-3 rounded-full font-bold text-sm">
+          <p className="text-zinc-100 text-sm mt-2">15 saal aap logo ne bharosa diya, ab aapke ghar ki baari hai.</p>
+          <a href="https://wa.me/919984740025" target="_blank" className="inline-block mt-5 bg-gray-900 hover:bg-gray-950 text-white px-8 py-3 rounded-full font-bold text-sm">
             WhatsApp Par Rate Lo
           </a>
         </div>

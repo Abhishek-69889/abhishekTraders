@@ -57,7 +57,7 @@ const Hero = () => {
           {/* Trust Points */}
           <div className='flex gap-6 mt-8 pt-6 border-t border-white/10'>
             <div>
-              <p className='text-2xl font-bold text-white'>1000+</p>
+              <p className='text-2xl font-bold text-white'>500+</p>
               <p className='text-xs text-zinc-400'>Happy Clients</p>
             </div>
             <div>

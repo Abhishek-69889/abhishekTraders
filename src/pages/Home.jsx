@@ -1,6 +1,6 @@
 import Hero from "../components/Home/Hero"
 import Intro from "../components/Home/Intro"
-import SEO from "../components/Home/SEO"
+import SEO from "../components/SEO"
 
 const Home = () => {
   return (
