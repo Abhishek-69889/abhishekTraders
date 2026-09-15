@@ -1,4 +1,5 @@
 import { Phone, MapPin, Clock, Mail, ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -105,8 +106,8 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col lg:flex-row justify-between items-center gap-3 text-">
           <p>© 2026 Abhishek Traders Kantha, Unnao. All Rights Reserved. Built on Trust.</p>
           <div className="flex gap-4">
-            <span className="hover:text-white cursor-pointer">Privacy Policy</span>
-            <span className="hover:text-white cursor-pointer">Terms</span>
+            <Link to="/policy" className="hover:text-white cursor-pointer">Privacy Policy</Link>
+            <Link to='/terms' className="hover:text-white cursor-pointer">Terms</Link>
             <span className="text-zinc-600">Made in Unnao with ♡ for 500+ Homes</span>
           </div>
         </div>
