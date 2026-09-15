@@ -66,7 +66,7 @@ const Intro = () => {
 
           <div className='grid grid-cols-3 gap-6 mt-10 pt-8 border-t border-zinc-200'>
             <div>
-              <p className='text-3xl font-bold text-zinc-900'>1000+</p>
+              <p className='text-3xl font-bold text-zinc-900'>500+</p>
               <p className='text-xs font-semibold tracking-widest text-zinc-500 mt-1'>HOMES BUILT</p>
             </div>
             <div>
