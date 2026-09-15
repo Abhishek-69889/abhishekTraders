@@ -9,7 +9,7 @@ const FounderCard = () => {
               <div>
                 <p className='font-bold text-zinc-900 leading-none'>Raju Tiwari</p>
                 <p className='text-xs text-zinc-500 mt-1'>Founder, Abhishek Traders</p>
-                <p className='text-xs text-orange-600 font-semibold mt-1'>20+ Years Experience</p>
+                <p className='text-xs text-orange-600 font-semibold mt-1'>15+ Years Experience</p>
               </div>
             </div>
             <p className='text-sm text-zinc-600 mt-3 italic flex gap-2'>
