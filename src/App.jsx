@@ -13,6 +13,8 @@ import useProtect from "./hooks/useProtect";
 const OurJourney = lazy(()=> import("./pages/OurJourney"))
 const Services = lazy(()=> import("./pages/Services"))
 const Gallery = lazy(()=> import("./pages/Gallery"))
+const PrivacyPolicy = lazy(()=> import("./pages/PrivacyPolicy"))
+const TermsAndConditions = lazy(()=> import("./pages/TermsAndConditions"))
 
 function App() {  
 
@@ -31,6 +33,8 @@ function App() {
           <Route path="/ourJourney" element={renderLazy(<OurJourney/>)}/>
           <Route path="/services" element={renderLazy(<Services/>)}/>
           <Route path="/gallery" element={renderLazy(<Gallery/>)}/>
+          <Route path="/privacypolicy" element={renderLazy(<PrivacyPolicy/>)}/>
+          <Route path="/TermsAndConditions" element={renderLazy(<TermsAndConditions/>)}/>
           <Route path="*" element={renderLazy(<NotFound/>)}/>
       </Routes>
       <Footer/>

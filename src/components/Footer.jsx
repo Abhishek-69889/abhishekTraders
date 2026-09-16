@@ -59,9 +59,9 @@ const Footer = () => {
         <div>
           <p className="text-white font-bold text-sm tracking-widest">COMPANY</p>
           <ul className="mt-4 space-y-2.5 text-sm">
-            <li><a href="/journey" className="hover:text-white transition-colors">Our Journey 2011-2026</a></li>
+            <li><a href="/ourJourney" className="hover:text-white transition-colors">Our Journey 2011-2026</a></li>
             <li><a href="/services" className="hover:text-white transition-colors">Services & Rates</a></li>
-            <li><a href="/about" className="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="/gallery" className="hover:text-white transition-colors">Gallery</a></li>
             <li><a href="/contact" className="hover:text-white transition-colors">Contact Us</a></li>
             <li><a href="https://wa.me/919984740025" target="_blank" className="hover:text-white transition-colors">Get Quotation</a></li>
             <li><a href="tel:+919984740025" className="hover:text-white transition-colors">Same Day Delivery</a></li>
@@ -110,8 +110,8 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col lg:flex-row justify-between items-center gap-3 text-">
           <p>© 2026 Abhishek Traders Kantha, Unnao. All Rights Reserved. Built on Trust.</p>
           <div className="flex gap-4">
-            <Link to="/policy" className="hover:text-white cursor-pointer">Privacy Policy</Link>
-            <Link to='/terms' className="hover:text-white cursor-pointer">Terms</Link>
+            <Link to="/privacypolicy" className="hover:text-white cursor-pointer">Privacy Policy</Link>
+            <Link to='/TermsAndConditions' className="hover:text-white cursor-pointer">Terms</Link>
             <span className="text-zinc-600">Made in Unnao with ♡ for 500+ Homes</span>
           </div>
         </div>
