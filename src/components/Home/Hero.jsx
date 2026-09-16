@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -49,9 +50,11 @@ const Hero = () => {
             <a href="https://wa.me/9984740025" className='px-6 py-3.5 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-full text-center transition-all duration-300 hover:scale-[1.02] shadow-[0_4px_20px_rgba(249,115,22,0.4)]'>
               Get Rate on WhatsApp
             </a>
-            <button className='px-6 py-3.5 bg-white/10 hover:bg-white/15 backdrop-blur-md border border-white/20 text-white font-semibold rounded-full text-center transition-all duration-300 cursor-pointer'>
+            <Link 
+            to="/services"
+            className='px-6 py-3.5 bg-white/10 hover:bg-white/15 backdrop-blur-md border border-white/20 text-white font-semibold rounded-full text-center transition-all duration-300 cursor-pointer'>
               View Products
-            </button>
+            </Link>
           </div>
 
           {/* Trust Points */}

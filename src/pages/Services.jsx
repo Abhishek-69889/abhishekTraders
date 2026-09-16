@@ -10,7 +10,7 @@ const services = [
     desc: "100% genuine, direct company supply. Every bag is fresh stock with manufacturing date.",
     uses: "Foundation, Roof, Plaster - Sab ke liye best grade",
     image: "https://5.imimg.com/data5/SELLER/Default/2023/11/359779101/AD/GE/SO/180775747/ultratech-cement-bag-500x500.jpeg",
-    price: "Starting ₹360/bag"
+    price: ""
   },
   {
     id: "sariya",
@@ -20,7 +20,7 @@ const services = [
     desc: "Earthquake resistant, high strength TMT bars. Cutting and bending available as per your map.",
     uses: "Beam, Column, Roof, Slab - Ghar ki jaan",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQffBpEYDLeAitHYDSh86ZR1xhO-V4s7kHjiJkGFX_Y60_yoNRPY4jOJK4f&s=10",
-    price: "Starting ₹62/kg"
+    price: ""
   },
   {
     id: "morang",
@@ -49,7 +49,7 @@ const services = [
     brands: "Kajaria | Somany | Johnson | Simpolo",
     desc: "Premium tiles for floor and wall. 2x2, 2x4 vitrified, anti-skid, parking tiles available.",
     uses: "Living Room, Bedroom Floor",
-    price: "Starting ₹35/sqft",
+    price: "",
     image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600"
   },
  {
@@ -59,7 +59,7 @@ const services = [
     brands: "Supreme | Finolex | Astral",
     desc: "Supreme, Finolex, Astral PVC/CPVC pipes, Sintex tanks, Hindware sanitary. Full bathroom fitting solution with plumber available.",
     uses: "Water Supply, Drainage, Borewell",
-    price: "Starting ₹120/pc",
+    price: "",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyvvx0Nme6URwLj9HTFBAqLcoeC2CAibZi7_uk54PGqQ&s=10"
   }
 ];
@@ -82,10 +82,10 @@ const Services = () => {
         </p>
 
         <div className="grid grid-cols-3 lg:grid-cols-4 gap-3 mt-8">
-          <div className="flex items-center gap-2 bg-white border border-zinc-200 rounded-full hover:bg-[#E5F1ED] cursor-pointer px-4 py-2.5 text-xs font-semibold"><ShieldCheck size={16} className="text-green-600"/> 100% Genuine</div>
-          <div className="flex items-center gap-2 bg-white border border-zinc-200 rounded-full hover:bg-[#E5F1ED] cursor-pointer px-4 py-2.5 text-xs font-semibold"><Truck size={16} className="text-orange-500"/> Same Day Delivery</div>
-          <div className="flex items-center gap-2 bg-white border border-zinc-200 rounded-full px-4 py-2.5 text-xs hover:bg-[#E5F1ED] cursor-pointer font-semibold"><BadgeIndianRupee size={16} className="text-zinc-800"/> Best Rate in Unnao</div>
-          <div className="hidden lg:flex items-center gap-2 bg-white border border-zinc-200 rounded-full px-4 py-2.5 text-xs font-semibold hover:bg-[#E5F1ED] cursor-pointer"><Clock size={16}/> 8AM - 8PM Open</div>
+          <div className="flex items-center gap-2 bg-white border border-zinc-200 rounded-full hover:bg-[#E5F1ED]  px-4 py-2.5 text-xs font-semibold"><ShieldCheck size={16} className="text-green-600"/> 100% Genuine</div>
+          <div className="flex items-center gap-2 bg-white border border-zinc-200 rounded-full hover:bg-[#E5F1ED] px-4 py-2.5 text-xs font-semibold"><Truck size={16} className="text-orange-500"/> Same Day Delivery</div>
+          <div className="flex items-center gap-2 bg-white border border-zinc-200 rounded-full px-4 py-2.5 text-xs hover:bg-[#E5F1ED]  font-semibold"><BadgeIndianRupee size={16} className="text-zinc-800"/> Best Rate in Unnao</div>
+          <div className="hidden lg:flex items-center gap-2 bg-white border border-zinc-200 rounded-full px-4 py-2.5 text-xs font-semibold hover:bg-[#E5F1ED] "><Clock size={16}/> 8AM - 8PM Open</div>
         </div>
       </div>
 

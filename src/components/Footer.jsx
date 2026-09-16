@@ -91,8 +91,12 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-6 bg-zinc-900 border border-zinc-800 rounded-xl p-3 flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center font-black text-black text-xs">G</div>
+          <div className="mt-6 bg-zinc-900 border border-zinc-800 hover:bg-zinc-950 rounded-xl p-3 flex items-center gap-3 ">
+            <div className="w-10 h-10 overflow-hidden rounded-full bg-white flex items-center justify-center font-black text-black text-xs">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST_G6g1i3aYQ0xU66Ogazg2zAEpJAsHyeRbyO0YdDgoQ&s=10" alt="" 
+              className="w-full h-full object-cover"
+              />
+            </div>
             <div>
               <p className="text-white text-xs font-bold">Google Rating</p>
               <p className="text-xs">5 ★ (5+ Reviews) • Unnao</p>
